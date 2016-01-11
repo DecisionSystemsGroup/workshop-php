@@ -21,8 +21,13 @@
 	$y = array(5=>'Iosif', 'Giorgos', 'Kounas');
 	echo '<br>';
 	print_r($y);
+	echo '<br>';
+	echo $y[6];
 	
 	$y = array('Iosif'=>15, 'Giorgos'=>20, 'Kounas'=>17);
 	echo '<br>';
 	print_r($y);
+	echo '<br>';
+	echo $y['Giorgos'];
+	
 ?>
