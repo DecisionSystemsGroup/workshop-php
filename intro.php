@@ -6,4 +6,5 @@
 	echo 'Na lola $x mhlo!<br>';	//false
 	
 	echo 'Na lola '.$x.' mhlo!<br>';
+	echo 'Na <u>lola</u> <b>'.($x+1).'</b> mhla!<br>';
 ?>
