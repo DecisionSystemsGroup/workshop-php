@@ -13,5 +13,16 @@
 	echo $y=5;
 	echo '<br>';
 	echo $y=true;
+	echo '<br>';
 	
+	$y = array('Iosif', 'Giorgos', 'Kounas');
+	print_r($y);
+	
+	$y = array(5=>'Iosif', 'Giorgos', 'Kounas');
+	echo '<br>';
+	print_r($y);
+	
+	$y = array('Iosif'=>15, 'Giorgos'=>20, 'Kounas'=>17);
+	echo '<br>';
+	print_r($y);
 ?>
