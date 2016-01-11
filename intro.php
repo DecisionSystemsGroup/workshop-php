@@ -1,7 +1,7 @@
 <?php
-	echo "Hello World!";
+	echo "Hello World!<br>";
 	
 	$x=1;
-	echo "Na lola $x mhlo!";	//correct
-	echo 'Na lola $x mhlo!';	//false
+	echo "Na lola $x mhlo!<br>";	//correct
+	echo 'Na lola $x mhlo!<br>';	//false
 ?>
