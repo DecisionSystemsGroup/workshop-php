@@ -32,7 +32,7 @@
 		$username = $_POST['username'];
 		$password = $_POST['password'];
 		
-		$query = "SELECT email FROM users WHERE username='$username' AND password='$password'";
+		$query = "SELECT email FROM users WHERE username='$username' AND password='$password'";	//This is just for demonstration purposes, please google "prepared statements" and "password hashing" for actual projects.
 		$result = mysqli_query($dbc,$query);
 		if($result->num_rows>0){
 			$row = $result->fetch_assoc();
