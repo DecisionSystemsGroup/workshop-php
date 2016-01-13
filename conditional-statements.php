@@ -9,4 +9,8 @@
 	else {
 		echo "$x = 9";
 	}
+	
+	echo "<br>";
+	
+	echo ($x==9)?"Equals":"Not Equals";
 ?>
