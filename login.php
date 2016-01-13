@@ -36,7 +36,6 @@
 		$result = mysqli_query($dbc,$query);
 		if($result->num_rows>0){
 			$row = $result->fetch_assoc();
-			session_start();
 			$_SESSION['email'] = $row['email'];
 			$_SESSION['username'] = $username;
 			header('Location: index.php');
