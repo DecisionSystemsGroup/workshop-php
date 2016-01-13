@@ -1,4 +1,6 @@
 <?php
+	session_start();
+	print_r($_SESSION);
 	$x = 3;
 	if($x>9){
 		echo "$x > 9";
