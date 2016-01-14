@@ -15,19 +15,19 @@
 	echo $y=true;
 	echo '<br>';
 	
-	$y = array('Iosif', 'Giorgos', 'Kounas');
-	print_r($y);
+	$names = array('Iosif', 'Giorgos', 'Kounas');
+	print_r($names);
 	
-	$y = array(5=>'Iosif', 'Giorgos', 'Kounas');
+	$names = array(5=>'Iosif', 'Giorgos', 'Kounas');
 	echo '<br>';
-	print_r($y);
+	print_r($names);
 	echo '<br>';
-	echo $y[6];
+	echo $names[6];
 	
-	$y = array('Iosif'=>15, 'Giorgos'=>20, 'Kounas'=>17);
+	$ages = array('Iosif'=>15, 'Giorgos'=>20, 'Kounas'=>17);
 	echo '<br>';
-	print_r($y);
+	print_r($ages);
 	echo '<br>';
-	echo $y['Giorgos'];
+	echo $ages['Giorgos'];
 	
 ?>
